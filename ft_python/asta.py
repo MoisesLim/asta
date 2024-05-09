@@ -7,7 +7,7 @@ import os
 import wikipedia
 
 class Asta:
-    def __init__(self):  # Corrigido aqui
+    def __init__(self): 
         self.name = "Asta"
         self.listener = sr.Recognizer()
         self.engine = pyttsx3.init()
@@ -123,7 +123,6 @@ class Asta:
         self.say(goodbye)
 
 
-# Exemplo de uso:
 asta = Asta()
 asta.greet()
 
